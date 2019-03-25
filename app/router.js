@@ -7,7 +7,8 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
-  this.mount('super-blog');
+  this.mount('super-blog', { resetNamespace: true, path: '/blog' });
+  this.mount('super-blog', { as: 'dev-blog', path: '/dev-blog' });
 });
 
 export default Router;
