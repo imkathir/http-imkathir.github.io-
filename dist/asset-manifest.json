@@ -1,7 +1,12 @@
 {
   "bundles": {
     "super-blog": {
-      "assets": []
+      "assets": [
+        {
+          "uri": "/engines-dist/super-blog/config/environment-6c174920b0f1d250eec916b467521345.js",
+          "type": "js"
+        }
+      ]
     }
   }
 }
